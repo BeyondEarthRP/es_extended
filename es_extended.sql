@@ -10,6 +10,7 @@ ALTER TABLE `users`
 ;
 
 CREATE TABLE `items` (
+	`id` INT(11) NOT NULL DEFAULT '-1',
 	`name` VARCHAR(50) NOT NULL,
 	`label` VARCHAR(50) NOT NULL,
 	`limit` INT(11) NOT NULL DEFAULT '-1',
